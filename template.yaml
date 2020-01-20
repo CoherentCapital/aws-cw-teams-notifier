@@ -7,9 +7,9 @@ Resources:
     Type: AWS::Serverless::Function
     Properties:
       Handler: index.handler
-      Runtime: nodejs8.10
+      Runtime: Nodejs12.x
       Policies: AWSLambdaExecute
       Timeout: 300
       Environment:
         Variables:
-          TEAMS_WEB_HOOK_URL:  https://outlook.office.com/webhook/.....YOUR TEAM+CHANNEL IDS HERE
+          TEAMS_WEB_HOOK_URL:  https://outlook.office.com/webhook/d7d55ed8-f872-497c-86f8-ccbcefd38b39@ae1c13dd-fc66-4e1f-adca-017c80bcbca9/IncomingWebhook/f6659a99116745d7b5b309fd48b0adbb/a4865f2c-7e2c-42a0-8bc6-88bc25cf99d4
